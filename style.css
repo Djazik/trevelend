@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+button {
+  color: #fff;
+  padding: 14px 35px;
+  border-radius: 5px;
+  background: #c9453b;
+  border: none;
+  cursor: pointer;
+}
+
+/* @media (max-width 600px) {
+    .nav
+
+} */
+
+.nav {
+  background-image: url(./img/nav\ img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #fff;
+  margin-bottom: 70px;
+  padding: 30px 0;
+  padding-bottom: 150px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.hero_link {
+  display: flex;
+  gap: 50px;
+}
+
+.nav_item {
+  padding-top: 200px;
+}
+
+.nav__item-title {
+  color: #fff;
+  width: 670px;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.nav__item-text {
+  color: #fff;
+  width: 458px;
+  font-size: 18px;
+  opacity: 0.6;
+  padding: 35px 0;
+}
+
+.location {
+  padding: 30px 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.title_title {
+  color: #000;
+  font-size: 43px;
+}
+
+.title_text {
+  color: #000;
+  font-size: 18px;
+  width: 700px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.location_content {
+  display: flex;
+  gap: 30px;
+}
+
+/* .location__img-box {
+} */
+
+.location_tit {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.istanbul {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+}
+
+.istanbul_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.offers {
+  padding: 30px 0;
+}
+
+.offers_wrapper {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.offers_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .offers_img {
+} */
+
+.offers_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wall {
+  color: #000;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.offers_icon {
+  display: flex;
+  gap: 50px;
+}
+
+.china {
+  color: #000;
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.persent {
+  color: #000;
+  font-size: 25px;
+}
+
+.offers_location {
+  display: flex;
+  gap: 10px;
+}
+
+.offers_star {
+  display: flex;
+  gap: 10px;
+}
+
+.offers_data {
+  color: #000;
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.offers_money {
+  color: #000;
+  font-size: 18px;
+}
+
+.person {
+  color: #000;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.news {
+  padding: 30px 0;
+}
+
+.news_wrapper {
+  display: flex;
+  gap: 32px;
+}
+
+.news_content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bnaff {
+  color: #000;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.bnaff_text {
+  color: #000;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.bnaff_link {
+  color: #000;
+  font-size: 20px;
+}
+
+.news_item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.news_box {
+  display: flex;
+  gap: 30px;
+}
+
+.new__box-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.shova_link {
+  color: #000;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.footer {
+  padding: 40px 0;
+  background: rgba(38, 148, 153, 0.04);
+}
+
+.footer_trevelend {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.treveland {
+  font-size: 24px;
+  color: #000;
+  padding-bottom: 30px;
+}
+
+.contact {
+  color: #000;
+  font-size: 16px;
+}
+
+.footer_wrapper {
+  display: flex;
+  gap: 120px;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_links-title {
+  color: #000;
+  font-size: 16px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.subscribe {
+  font-size: 20px;
+  color: #000;
+}
+
+.footer_input {
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  opacity: 0.1;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.footer_input::placeholder {
+  color: #000;
+  font-size: 16px;
+}
+
+.inputs {
+    display:flex;
+    gap: 35px;
+}
